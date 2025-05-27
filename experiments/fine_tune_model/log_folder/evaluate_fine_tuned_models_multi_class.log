@@ -1,0 +1,285 @@
+05-25-2024 11:29:07 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/bert/BERT_fine_tuned_on_abuseval
+05-25-2024 11:29:07 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/bert/BERT_fine_tuned_on_davidson
+05-25-2024 11:29:12 [INFO]:  Evaluating trained model ................
+05-25-2024 11:29:13 [INFO]:                precision    recall  f1-score   support
+
+      normal     0.8046    0.7609    0.7821        92
+        hate     0.0000    0.0000    0.0000         6
+   offensive     0.8685    0.9158    0.8916       202
+
+    accuracy                         0.8500       300
+   macro avg     0.5577    0.5589    0.5579       300
+weighted avg     0.8316    0.8500    0.8402       300
+
+05-25-2024 11:29:13 [INFO]:  
+Macro F1: 0.5578963900293913
+05-25-2024 11:29:13 [INFO]:  Macro Precision: 0.5577141006961308
+05-25-2024 11:29:13 [INFO]:  Macro Recall: 0.5589037164586025
+05-25-2024 11:29:13 [INFO]:  Micro F1: 0.85
+05-25-2024 11:29:13 [INFO]:  Micro Precision: 0.85
+05-25-2024 11:29:13 [INFO]:  Micro Recall: 0.85
+05-25-2024 11:29:13 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/bert/BERT_fine_tuned_on_founta
+05-25-2024 11:29:15 [INFO]:  Evaluating trained model ................
+05-25-2024 11:29:16 [INFO]:                precision    recall  f1-score   support
+
+      normal     0.8391    0.8813    0.8597       219
+     hateful     0.0000    0.0000    0.0000        10
+     abusive     0.6143    0.6056    0.6099        71
+
+    accuracy                         0.7867       300
+   macro avg     0.4845    0.4956    0.4899       300
+weighted avg     0.7579    0.7867    0.7719       300
+
+05-25-2024 11:29:16 [INFO]:  
+Macro F1: 0.48987242466842523
+05-25-2024 11:29:16 [INFO]:  Macro Precision: 0.484472049689441
+05-25-2024 11:29:16 [INFO]:  Macro Recall: 0.4956374472098956
+05-25-2024 11:29:16 [INFO]:  Micro F1: 0.7866666666666666
+05-25-2024 11:29:16 [INFO]:  Micro Precision: 0.7866666666666666
+05-25-2024 11:29:16 [INFO]:  Micro Recall: 0.7866666666666666
+05-25-2024 11:29:16 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/bert/BERT_fine_tuned_on_golbeck
+05-25-2024 11:29:18 [INFO]:  Evaluating trained model ................
+05-25-2024 11:29:19 [INFO]:                  precision    recall  f1-score   support
+
+not harassment     0.6173    0.6410    0.6289        78
+    harassment     0.7647    0.7459    0.7552       122
+
+      accuracy                         0.7050       200
+     macro avg     0.6910    0.6935    0.6921       200
+  weighted avg     0.7072    0.7050    0.7059       200
+
+05-25-2024 11:29:19 [INFO]:  
+Macro F1: 0.6920587698008821
+05-25-2024 11:29:19 [INFO]:  Macro Precision: 0.6909949164851126
+05-25-2024 11:29:19 [INFO]:  Macro Recall: 0.6934636401849517
+05-25-2024 11:29:19 [INFO]:  Micro F1: 0.705
+05-25-2024 11:29:19 [INFO]:  Micro Precision: 0.705
+05-25-2024 11:29:19 [INFO]:  Micro Recall: 0.705
+05-25-2024 11:29:19 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/bert/BERT_fine_tuned_on_hateval
+05-25-2024 11:29:21 [INFO]:  Evaluating trained model ................
+05-25-2024 11:29:23 [INFO]:                precision    recall  f1-score   support
+
+    not hate     0.6667    0.5445    0.5994       371
+        hate     0.7575    0.8394    0.7964       629
+
+    accuracy                         0.7300      1000
+   macro avg     0.7121    0.6920    0.6979      1000
+weighted avg     0.7238    0.7300    0.7233      1000
+
+05-25-2024 11:29:23 [INFO]:  
+Macro F1: 0.6978933093438242
+05-25-2024 11:29:23 [INFO]:  Macro Precision: 0.7120994739359159
+05-25-2024 11:29:23 [INFO]:  Macro Recall: 0.691951028244036
+05-25-2024 11:29:23 [INFO]:  Micro F1: 0.7299999999999999
+05-25-2024 11:29:23 [INFO]:  Micro Precision: 0.73
+05-25-2024 11:29:23 [INFO]:  Micro Recall: 0.73
+05-25-2024 11:29:23 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/bert/BERT_fine_tuned_on_offenseval
+05-25-2024 11:29:25 [INFO]:  Evaluating trained model ................
+05-25-2024 11:29:27 [INFO]:                 precision    recall  f1-score   support
+
+not offensive     0.8106    0.9384    0.8699       666
+    offensive     0.5393    0.2474    0.3392       194
+
+     accuracy                         0.7826       860
+    macro avg     0.6750    0.5929    0.6045       860
+ weighted avg     0.7494    0.7826    0.7502       860
+
+05-25-2024 11:29:27 [INFO]:  
+Macro F1: 0.6045451974692073
+05-25-2024 11:29:27 [INFO]:  Macro Precision: 0.6749806904793133
+05-25-2024 11:29:27 [INFO]:  Macro Recall: 0.5929305594254048
+05-25-2024 11:29:27 [INFO]:  Micro F1: 0.7825581395348837
+05-25-2024 11:29:27 [INFO]:  Micro Precision: 0.7825581395348837
+05-25-2024 11:29:27 [INFO]:  Micro Recall: 0.7825581395348837
+05-25-2024 11:29:27 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/bert/BERT_fine_tuned_on_waseem
+05-25-2024 11:29:27 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/bert/BERT_fine_tuned_on_waseem_and_hovy
+05-25-2024 11:29:27 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/bertweet/BERTweet_fine_tuned_on_abuseval
+05-25-2024 11:29:27 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/bertweet/BERTweet_fine_tuned_on_davidson
+05-25-2024 11:29:31 [INFO]:  Evaluating trained model ................
+05-25-2024 11:29:32 [INFO]:                precision    recall  f1-score   support
+
+      normal     0.8205    0.6957    0.7529        92
+        hate     0.0000    0.0000    0.0000         6
+   offensive     0.8468    0.9307    0.8868       202
+
+    accuracy                         0.8400       300
+   macro avg     0.5558    0.5421    0.5466       300
+weighted avg     0.8218    0.8400    0.8280       300
+
+05-25-2024 11:29:32 [INFO]:  
+Macro F1: 0.5465778764335923
+05-25-2024 11:29:32 [INFO]:  Macro Precision: 0.5557865557865558
+05-25-2024 11:29:32 [INFO]:  Macro Recall: 0.5421150810733247
+05-25-2024 11:29:32 [INFO]:  Micro F1: 0.8399999999999999
+05-25-2024 11:29:32 [INFO]:  Micro Precision: 0.84
+05-25-2024 11:29:32 [INFO]:  Micro Recall: 0.84
+05-25-2024 11:29:32 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/bertweet/BERTweet_fine_tuned_on_founta
+05-25-2024 11:29:36 [INFO]:  Evaluating trained model ................
+05-25-2024 11:29:37 [INFO]:                precision    recall  f1-score   support
+
+      normal     0.8468    0.8584    0.8526       219
+     hateful     0.0000    0.0000    0.0000        10
+     abusive     0.5897    0.6479    0.6174        71
+
+    accuracy                         0.7800       300
+   macro avg     0.4789    0.5021    0.4900       300
+weighted avg     0.7578    0.7800    0.7685       300
+
+05-25-2024 11:29:37 [INFO]:  
+Macro F1: 0.490019124726699
+05-25-2024 11:29:37 [INFO]:  Macro Precision: 0.47886347886347885
+05-25-2024 11:29:37 [INFO]:  Macro Recall: 0.5021116041760456
+05-25-2024 11:29:37 [INFO]:  Micro F1: 0.78
+05-25-2024 11:29:37 [INFO]:  Micro Precision: 0.78
+05-25-2024 11:29:37 [INFO]:  Micro Recall: 0.78
+05-25-2024 11:29:37 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/bertweet/BERTweet_fine_tuned_on_golbeck
+05-25-2024 11:29:40 [INFO]:  Evaluating trained model ................
+05-25-2024 11:29:41 [INFO]:                  precision    recall  f1-score   support
+
+not harassment     0.7143    0.2564    0.3774        78
+    harassment     0.6628    0.9344    0.7755       122
+
+      accuracy                         0.6700       200
+     macro avg     0.6885    0.5954    0.5764       200
+  weighted avg     0.6829    0.6700    0.6202       200
+
+05-25-2024 11:29:41 [INFO]:  
+Macro F1: 0.5764343473238352
+05-25-2024 11:29:41 [INFO]:  Macro Precision: 0.6885382059800664
+05-25-2024 11:29:41 [INFO]:  Macro Recall: 0.5954182429592265
+05-25-2024 11:29:41 [INFO]:  Micro F1: 0.67
+05-25-2024 11:29:41 [INFO]:  Micro Precision: 0.67
+05-25-2024 11:29:41 [INFO]:  Micro Recall: 0.67
+05-25-2024 11:29:41 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/bertweet/BERTweet_fine_tuned_on_hateval
+05-25-2024 11:29:45 [INFO]:  Evaluating trained model ................
+05-25-2024 11:29:47 [INFO]:                precision    recall  f1-score   support
+
+    not hate     0.7781    0.6334    0.6984       371
+        hate     0.8052    0.8935    0.8470       629
+
+    accuracy                         0.7970      1000
+   macro avg     0.7917    0.7635    0.7727      1000
+weighted avg     0.7951    0.7970    0.7919      1000
+
+05-25-2024 11:29:47 [INFO]:  
+Macro F1: 0.7726944442267188
+05-25-2024 11:29:47 [INFO]:  Macro Precision: 0.7916516442437238
+05-25-2024 11:29:47 [INFO]:  Macro Recall: 0.7634524488020604
+05-25-2024 11:29:47 [INFO]:  Micro F1: 0.797
+05-25-2024 11:29:47 [INFO]:  Micro Precision: 0.797
+05-25-2024 11:29:47 [INFO]:  Micro Recall: 0.797
+05-25-2024 11:29:47 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/bertweet/BERTweet_fine_tuned_on_offenseval
+05-25-2024 11:29:52 [INFO]:  Evaluating trained model ................
+05-25-2024 11:29:53 [INFO]:                 precision    recall  f1-score   support
+
+not offensive     0.8547    0.9625    0.9054       666
+    offensive     0.7727    0.4381    0.5592       194
+
+     accuracy                         0.8442       860
+    macro avg     0.8137    0.7003    0.7323       860
+ weighted avg     0.8362    0.8442    0.8273       860
+
+05-25-2024 11:29:53 [INFO]:  
+Macro F1: 0.7322888789771038
+05-25-2024 11:29:53 [INFO]:  Macro Precision: 0.8136969696969697
+05-25-2024 11:29:53 [INFO]:  Macro Recall: 0.7003033961796848
+05-25-2024 11:29:53 [INFO]:  Micro F1: 0.8441860465116279
+05-25-2024 11:29:53 [INFO]:  Micro Precision: 0.8441860465116279
+05-25-2024 11:29:53 [INFO]:  Micro Recall: 0.8441860465116279
+05-25-2024 11:29:53 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/bertweet/BERTweet_fine_tuned_on_waseem
+05-25-2024 11:29:53 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/bertweet/BERTweet_fine_tuned_on_waseem_and_hovy
+05-25-2024 11:29:53 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/hate_bert/HateBERT_fine_tuned_on_abuseval
+05-25-2024 11:29:53 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/hate_bert/HateBERT_fine_tuned_on_davidson
+05-25-2024 11:29:58 [INFO]:  Evaluating trained model ................
+05-25-2024 11:29:59 [INFO]:                precision    recall  f1-score   support
+
+      normal     0.7812    0.8152    0.7979        92
+        hate     0.0000    0.0000    0.0000         6
+   offensive     0.8873    0.8960    0.8916       202
+
+    accuracy                         0.8533       300
+   macro avg     0.5562    0.5704    0.5632       300
+weighted avg     0.8370    0.8533    0.8450       300
+
+05-25-2024 11:29:59 [INFO]:  
+Macro F1: 0.5631659853963596
+05-25-2024 11:29:59 [INFO]:  Macro Precision: 0.5561683006535948
+05-25-2024 11:29:59 [INFO]:  Macro Recall: 0.5704189984215813
+05-25-2024 11:29:59 [INFO]:  Micro F1: 0.8533333333333335
+05-25-2024 11:29:59 [INFO]:  Micro Precision: 0.8533333333333334
+05-25-2024 11:29:59 [INFO]:  Micro Recall: 0.8533333333333334
+05-25-2024 11:29:59 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/hate_bert/HateBERT_fine_tuned_on_founta
+05-25-2024 11:30:02 [INFO]:  Evaluating trained model ................
+05-25-2024 11:30:03 [INFO]:                precision    recall  f1-score   support
+
+      normal     0.8266    0.9361    0.8779       219
+     hateful     0.0000    0.0000    0.0000        10
+     abusive     0.6923    0.5070    0.5854        71
+
+    accuracy                         0.8033       300
+   macro avg     0.5063    0.4810    0.4878       300
+weighted avg     0.7673    0.8033    0.7794       300
+
+05-25-2024 11:30:03 [INFO]:  
+Macro F1: 0.4877700597134451
+05-25-2024 11:30:03 [INFO]:  Macro Precision: 0.506306865177833
+05-25-2024 11:30:03 [INFO]:  Macro Recall: 0.4810384376272858
+05-25-2024 11:30:03 [INFO]:  Micro F1: 0.8033333333333333
+05-25-2024 11:30:03 [INFO]:  Micro Precision: 0.8033333333333333
+05-25-2024 11:30:03 [INFO]:  Micro Recall: 0.8033333333333333
+05-25-2024 11:30:03 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/hate_bert/HateBERT_fine_tuned_on_golbeck
+05-25-2024 11:30:05 [INFO]:  Evaluating trained model ................
+05-25-2024 11:30:05 [INFO]:                  precision    recall  f1-score   support
+
+not harassment     0.6596    0.3974    0.4960        78
+    harassment     0.6928    0.8689    0.7709       122
+
+      accuracy                         0.6850       200
+     macro avg     0.6762    0.6331    0.6335       200
+  weighted avg     0.6798    0.6850    0.6637       200
+
+05-25-2024 11:30:05 [INFO]:  
+Macro F1: 0.6334545454545455
+05-25-2024 11:30:05 [INFO]:  Macro Precision: 0.6761924628007231
+05-25-2024 11:30:05 [INFO]:  Macro Recall: 0.6331441782261454
+05-25-2024 11:30:05 [INFO]:  Micro F1: 0.685
+05-25-2024 11:30:05 [INFO]:  Micro Precision: 0.685
+05-25-2024 11:30:05 [INFO]:  Micro Recall: 0.685
+05-25-2024 11:30:05 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/hate_bert/HateBERT_fine_tuned_on_hateval
+05-25-2024 11:30:08 [INFO]:  Evaluating trained model ................
+05-25-2024 11:30:10 [INFO]:                precision    recall  f1-score   support
+
+    not hate     0.6383    0.6469    0.6426       371
+        hate     0.7901    0.7838    0.7869       629
+
+    accuracy                         0.7330      1000
+   macro avg     0.7142    0.7153    0.7147      1000
+weighted avg     0.7338    0.7330    0.7334      1000
+
+05-25-2024 11:30:10 [INFO]:  
+Macro F1: 0.7147408468671173
+05-25-2024 11:30:10 [INFO]:  Macro Precision: 0.714180987452264
+05-25-2024 11:30:10 [INFO]:  Macro Recall: 0.7153420266627813
+05-25-2024 11:30:10 [INFO]:  Micro F1: 0.733
+05-25-2024 11:30:10 [INFO]:  Micro Precision: 0.733
+05-25-2024 11:30:10 [INFO]:  Micro Recall: 0.733
+05-25-2024 11:30:10 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/hate_bert/HateBERT_fine_tuned_on_offenseval
+05-25-2024 11:30:12 [INFO]:  Evaluating trained model ................
+05-25-2024 11:30:14 [INFO]:                 precision    recall  f1-score   support
+
+not offensive     0.8154    0.9685    0.8854       666
+    offensive     0.6957    0.2474    0.3650       194
+
+     accuracy                         0.8058       860
+    macro avg     0.7555    0.6079    0.6252       860
+ weighted avg     0.7884    0.8058    0.7680       860
+
+05-25-2024 11:30:14 [INFO]:  
+Macro F1: 0.6251999655524269
+05-25-2024 11:30:14 [INFO]:  Macro Precision: 0.7555378442258012
+05-25-2024 11:30:14 [INFO]:  Macro Recall: 0.6079455744404199
+05-25-2024 11:30:14 [INFO]:  Micro F1: 0.805813953488372
+05-25-2024 11:30:14 [INFO]:  Micro Precision: 0.8058139534883721
+05-25-2024 11:30:14 [INFO]:  Micro Recall: 0.8058139534883721
+05-25-2024 11:30:14 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/hate_bert/HateBERT_fine_tuned_on_waseem
+05-25-2024 11:30:14 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models/gpt_labels/general_prompt_annotation/hate_bert/HateBERT_fine_tuned_on_waseem_and_hovy

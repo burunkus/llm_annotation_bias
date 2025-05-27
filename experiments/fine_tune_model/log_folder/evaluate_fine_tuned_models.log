@@ -1,0 +1,15 @@
+05-21-2024 12:37:44 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models_dialect_priming/gpt_labels_binary/cot_prompt_annotation/bert/BERT_fine_tuned_on_davidson
+05-21-2024 12:38:05 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models_dialect_priming/gpt_labels_binary/cot_prompt_annotation/bert/BERT_fine_tuned_on_founta
+05-21-2024 12:38:10 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models_dialect_priming/gpt_labels_binary/cot_prompt_annotation/bert/BERT_fine_tuned_on_golbeck
+05-21-2024 12:38:16 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models_dialect_priming/gpt_labels_binary/cot_prompt_annotation/bert/BERT_fine_tuned_on_hateval
+05-21-2024 12:38:24 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models_dialect_priming/gpt_labels_binary/cot_prompt_annotation/bert/BERT_fine_tuned_on_offenseval
+05-21-2024 12:38:29 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models_dialect_priming/gpt_labels_binary/cot_prompt_annotation/bertweet/BERTweet_fine_tuned_on_davidson
+05-21-2024 12:38:38 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models_dialect_priming/gpt_labels_binary/cot_prompt_annotation/bertweet/BERTweet_fine_tuned_on_founta
+05-21-2024 12:38:44 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models_dialect_priming/gpt_labels_binary/cot_prompt_annotation/bertweet/BERTweet_fine_tuned_on_golbeck
+05-21-2024 12:38:50 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models_dialect_priming/gpt_labels_binary/cot_prompt_annotation/bertweet/BERTweet_fine_tuned_on_hateval
+05-21-2024 12:39:00 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models_dialect_priming/gpt_labels_binary/cot_prompt_annotation/bertweet/BERTweet_fine_tuned_on_offenseval
+05-21-2024 12:39:06 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models_dialect_priming/gpt_labels_binary/cot_prompt_annotation/hate_bert/HateBERT_fine_tuned_on_davidson
+05-21-2024 12:39:12 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models_dialect_priming/gpt_labels_binary/cot_prompt_annotation/hate_bert/HateBERT_fine_tuned_on_founta
+05-21-2024 12:39:17 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models_dialect_priming/gpt_labels_binary/cot_prompt_annotation/hate_bert/HateBERT_fine_tuned_on_golbeck
+05-21-2024 12:39:20 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models_dialect_priming/gpt_labels_binary/cot_prompt_annotation/hate_bert/HateBERT_fine_tuned_on_hateval
+05-21-2024 12:39:25 [INFO]:  Evaluating ../../../../../../project/luofeng/socbd/eokpala/llm_annotation_bias/models_dialect_priming/gpt_labels_binary/cot_prompt_annotation/hate_bert/HateBERT_fine_tuned_on_offenseval
